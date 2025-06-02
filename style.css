@@ -2,7 +2,7 @@
   --bg-color: linear-gradient(135deg, #667eea, #764ba2);
   --container-bg: rgba(255, 255, 255, 0.12);
   --text-color: #222;
-  --input-bg: white;
+  --input-bg: blue;
   --button-bg: #00c6ff;
   --button-hover: #007bb5;
 }
@@ -10,7 +10,7 @@
 body.dark {
   --bg-color: linear-gradient(135deg, #1e1e2f, #3a3a5c);
   --container-bg: rgba(0, 0, 0, 0.4);
-  --text-color: #f5f5f5;
+  --text-color: blue;
   --input-bg: #333;
   --button-bg: #444;
   --button-hover: #666;
@@ -20,7 +20,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: var(--bg-color);
-  color: var(--text-color);
+  color: blue;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -63,10 +63,10 @@ input[type="text"] {
   font-size: 1rem;
   background: var(--input-bg);
   background-clip: padding-box;
-  color: inherit; /* Inherit text color from body */
+  color: blue;
 }
 
-/* Force proper text visibility in both modes */
+
 body:not(.dark) input[type="text"] {
   color: #222;
 }
