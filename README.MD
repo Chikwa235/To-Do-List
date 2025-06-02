@@ -4,7 +4,7 @@ A simple and responsive To-Do List web application that allows users to add, edi
 
 ✨ Features:
 
-✅ Add new tasks ✏️ Edit existing tasks 🗑️ Delete tasks 💾 Save tasks in the browser's localStorage 🔄 Persistent data after page refresh 🚀 Live Demo Click here to view the live app()
+✅ Add new tasks ✏️ Edit existing tasks 🗑️ Delete tasks 💾 Save tasks in the browser's localStorage 🔄 Persistent data after page refresh 🚀 Live Demo Click here to view the live app(https://chikwa235.github.io/to-do-list/)
 
 🛠️ Technologies Used: 
 
